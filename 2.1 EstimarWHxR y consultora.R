@@ -1,5 +1,5 @@
 #A. Importar la mortalidad bruta calculada anteriormente
-#B. Importar la suavización de la consultora (hecha en excel)
+#B. Importar la suavización de la consultora 
 #c. Suavizar cada simulación de la mortalidad bruta con el método de W-H de R
 
 
@@ -8,8 +8,8 @@
 mortalidad.bruta<-as.data.frame( read_excel("mortalidad bruta.xlsx"))
 
 
-#B Importar la suavización de la consultora (hecha en excel)
-#Aqui usamos la mortalidad bruta que hemos exportado al excel para pasar cada simulación por el excel de la consultora
+#B Importar la suavización de la consultora 
+#Aqui usamos la mortalidad bruta que hemos exportado al excel para pasar cada simulación por la suavización de la consultora
 #de este modo tenemos la suavización de cada trayectoria y los importamos
 wh_consultora<-as.data.frame( read_excel("importar mortalidad consultora.xlsx"))
 
