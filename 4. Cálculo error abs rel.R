@@ -45,8 +45,7 @@ for(j in 1:nro.trayectorias1)
 dif.rel.mb.suavizada2<-matrix(data=0,nrow=nro.trayectorias1,ncol=nro.tiemposvalidacion)
 
 
-#Definimos la función que el la diferencia entre los fallecidos con con la mortalidad bruta simulada y la nuestra
-# para cada edad para cada trayectoria
+#Definimos la función 
 x_dif1<-function(t_arg)
 {
   
