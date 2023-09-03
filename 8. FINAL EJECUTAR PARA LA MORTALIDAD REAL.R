@@ -42,7 +42,7 @@ pesos<-datos$`pesos hombres`
 
 
 
-#c Suavizar cada simulación de la mortalidad bruta con el método de W-H de R
+#c Suavizar la mortalidad bruta con el método de W-H de R
 nro.tiempos<-57
 #Definimos la matriz en la que se volcarán los datos
 mortalidad.suavizada.2<-matrix(data=0,nrow=1,ncol=nro.tiempos)
