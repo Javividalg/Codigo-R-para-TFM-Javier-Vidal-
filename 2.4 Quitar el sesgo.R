@@ -1,11 +1,11 @@
-#A. Calcular le nº de fallecidos calculados con las suavización en R y los expuestos
+#A. Calcular el nº de fallecidos calculados con las suavización en R y los expuestos
 #B. Crear el coeficiente
 #C. Cálculo de los fallecidos sin sesgo
 
 
 
 
-#A. calcular le nº de fallecidos calculados con las suavización en R y los expuestos
+#A. calcular el nº de fallecidos calculados con la suavización en R y los expuestos
 #Definimos la matriz en la que se volcarán los fallecidos
 
 Fsuavizada.2x<-matrix(data=0,nrow=nro.trayectorias,ncol=nro.tiempos)
